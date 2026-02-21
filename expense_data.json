@@ -11,24 +11,55 @@
             "amount": 90.95,
             "description": "taxi",
             "category": "Transportation"
+        },
+        {
+            "date": "2026-02-21 10:38:41",
+            "amount": 12.0,
+            "description": "spend in espresso",
+            "category": "Food & Drink"
+        },
+        {
+            "date": "2026-02-21 10:39:31",
+            "amount": 120.0,
+            "description": "uber",
+            "category": "Transportation"
+        },
+        {
+            "date": "2026-02-21 10:43:29",
+            "amount": 12.0,
+            "description": "on coffee",
+            "category": "Food & Drink"
+        },
+        {
+            "date": "2026-02-21 10:47:22",
+            "amount": 12.0,
+            "description": "spend on coffee at starbucks",
+            "category": "Food & Drink"
+        },
+        {
+            "date": "2026-02-21 10:48:10",
+            "amount": 95.0,
+            "description": "fuel",
+            "category": "Fuel"
         }
     ],
     "ai_model": {
         "feature_counts": {
             "Food & Drink": {
-                "coffee": 1,
-                "starbucks": 1,
+                "coffee": 3,
+                "starbucks": 2,
                 "latte": 2,
-                "espresso": 1,
+                "espresso": 2,
                 "burger": 1,
                 "pizza": 1,
                 "lunch": 1,
                 "dinner": 1,
                 "restaurant": 1,
-                "mcdonalds": 1
+                "mcdonalds": 1,
+                "spend": 2
             },
             "Transportation": {
-                "uber": 1,
+                "uber": 2,
                 "taxi": 2,
                 "bus": 1,
                 "train": 1,
@@ -82,17 +113,21 @@
                 "shoes": 1,
                 "mall": 1,
                 "shopping": 1
+            },
+            "Fuel": {
+                "fuel": 1
             }
         },
         "category_counts": {
-            "Food & Drink": 3,
-            "Transportation": 2,
+            "Food & Drink": 6,
+            "Transportation": 3,
             "Entertainment": 2,
             "Groceries": 1,
             "Utilities": 1,
             "Housing": 1,
             "Income": 1,
-            "Shopping": 1
+            "Shopping": 1,
+            "Fuel": 1
         }
     }
 }
